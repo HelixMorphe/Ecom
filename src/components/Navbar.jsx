@@ -3,8 +3,10 @@ import "../styles/Navbar.css";
 import styled from "styled-components";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import { Badge } from "@material-ui/core";
+import { mob } from "../responsive";
 const Container = styled.div`
   height: 3.75rem;
+  ${mob({ backgroundColor: "red" })}
 `;
 const Wrapper = styled.div`
   padding: 0.75rem 1.25rem;
